@@ -14,6 +14,7 @@ FCM-Sketch supports both various in-network (data-plane) and control-plane queri
 - Control-plane queries:
     - `Flow size distribution`
     - `Entropy`
+
 In addition, `Heavy change detection` is avaialble entirely in the data plane if we keep multiple sketches with resource trade-off.
 
 ## Compile & Test
@@ -26,4 +27,10 @@ Data-Plane queries are supported in P4-16 implementation. In future, we will pro
 
 You can cite this repository or FCM-Sketch as
 
-    @article{TBD}
+    @article{song2020fcm,
+        title={FCM-Sketch: Generic Network Measurements with Data Plane Support},
+        author={Cha Hwan, Song and Kannan, Pravein Govindan and Low, Bryan Kian Hsiang and Chan, Mun Choon},
+        journal={ACM CoNEXT 2020},
+        year={2020},
+        publisher={ACM}
+    }
