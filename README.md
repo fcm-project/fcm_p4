@@ -20,7 +20,7 @@ In addition, `Heavy change detection` is avaialble entirely in the data plane if
 ## Compile & Test
 Please use the description in the corresponding directory.
 
-## Future Update plane
+## Future Update plan
 Data-Plane queries are supported in P4-16 implementation. In future, we will provide a PTF test for EM-algorithm. Actually, it is easy to extend; we can load register values, sync with simulator's data structures, and run the algorithm.
 
 ## Citing FCM-Sketch
